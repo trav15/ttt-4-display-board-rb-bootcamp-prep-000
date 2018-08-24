@@ -5,7 +5,7 @@ def display_board (board)
   one_space = " "
   horizontal_line = "-----------"
   pipe_line = "|"
-  one_row = one_space + "#{board[0]}" one_space + pipe_line + one_space + pipe_line + one_space
+  first_row = one_space + "#{board[0]}" one_space + pipe_line + one_space + "#{board[1]}" one_space + pipe_line + one_space + "#{board[3]}" one_space
   puts one_row
   puts horizontal_line
   puts one_row
