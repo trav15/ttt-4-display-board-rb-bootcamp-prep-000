@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-def display_board
+def display_board (board)
   one_space = "   "
   horizontal_line = "-----------"
   pipe_line = "|"
@@ -12,3 +12,5 @@ def display_board
   puts horizontal_line
   puts one_row
 end
+
+board = [" ", " "]
