@@ -13,4 +13,3 @@ def display_board (board)
   puts one_row
 end
 
-board = [" ", " "]
